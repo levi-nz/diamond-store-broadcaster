@@ -1,0 +1,13 @@
+{
+  "name": "Diamond Store Broadcaster",
+  "description": "Sends a message in chat when disabling the glass alarm on Diamond Store",
+  "author": "levi_nz",
+  "contact": "https://github.com/leviinz",
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "hook_id": "lib/units/interactions/interactionext",
+      "script_path": "src/main.lua"
+    }
+  ]
+}
